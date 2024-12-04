@@ -12,7 +12,7 @@ Bu proje, React, Vite ve TailwindCSS kullanılarak JSONPlaceholder API'si ile ve
 ## Nasıl Çalıştırılır
 1. Reponun bir kopyasını klonlayın:
    ```bash
-   git clone https://github.com/kullaniciadi/react-jsonplaceholder-app.git
+   git clone https://github.com/tersoooo/react-jsonplaceholder-app.git
 
 Gerekli bağımlılıkları yükleyin:
 
