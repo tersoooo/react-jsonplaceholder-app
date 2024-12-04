@@ -2,6 +2,10 @@
 
 Bu proje, React, Vite ve TailwindCSS kullanılarak JSONPlaceholder API'si ile veri çekmek ve göstermek için geliştirilmiştir. Kullanıcılar, gönderiler ve yorumlar gibi verilerle basit bir uygulama oluşturulmuştur.
 
+## Demo
+Projenin canlı versiyonunu görmek için aşağıdaki bağlantıya tıklayın:  
+[Live Demo](https://react-jsonplaceholder-app.vercel.app)
+
 ## Kullanılan Teknolojiler
 - React
 - Vite (Hızlı geliştirme için)
