@@ -1,9 +1,12 @@
 import {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
+import Loader from "../components/Loader.jsx";
 export default function Posts() {
 
     const { userId } = useParams()
     const [posts, setPosts] = useState([]);
+    const [loading,setLoading] = useState(true)
+
 
     useEffect(() => {
         const url = userId
@@ -12,8 +15,15 @@ export default function Posts() {
 
         fetch(url)
             .then(response => response.json())
-            .then(data => setPosts(data))
+            .then(data => {
+                setPosts(data)
+                setLoading(false)
+            })
     }, [userId]);
+
+    if(loading){
+        return <Loader />
+    }
 
 
 

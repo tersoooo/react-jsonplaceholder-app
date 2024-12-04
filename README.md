@@ -19,5 +19,6 @@ Gerekli bağımlılıkları yükleyin:
 npm install     
 npm run dev
 
-#Amaç
+# Amaç
+
 Bu proje, JSONPlaceholder API'si gibi sahte bir REST API ile çalışmayı öğrenmek ve Vite ile React uygulaması geliştirme konusunda deneyim kazanmak amacıyla oluşturulmuştur.

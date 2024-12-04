@@ -1,15 +1,24 @@
 import {useState, useEffect} from "react";
 import {Link} from "react-router-dom";
+import Loader from "../components/Loader.jsx";
 
 export default function Users() {
 
     const [users,setUsers] = useState([]);
+    const [loading,setLoading] = useState(true)
 
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/users')
             .then(response => response.json())
-            .then(data => setUsers(data))
+            .then(data => {
+                setUsers(data)
+                setLoading(false)
+            })
     }, []);
+
+    if(loading){
+        return <Loader />
+    }
 
     return (
         <div className="p-6">
