@@ -5,7 +5,7 @@
 @layer base{
 
     body, html, #root {
-        @apply h-screen font-Poppins antialiased
+        @apply h-screen font-Poppins antialiased bg-black text-white
     }
 
 }
