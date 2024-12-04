@@ -36,7 +36,7 @@ export default function Users() {
             <h1 className="text-3xl font-bold flex justify-center border-b pb-4 border-b-[#282828]">Users</h1>
             <input
                 type="text"
-                placeholder="Search..."
+                placeholder="Search Users..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="w-full p-2 mt-4 border rounded bg-transparent outline-none border-[#282828] focus:border-[#444]"
