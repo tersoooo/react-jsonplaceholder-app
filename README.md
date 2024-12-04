@@ -1,8 +1,23 @@
-# React + Vite
+# React JSONPlaceholder App with Vite & TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React, Vite ve TailwindCSS kullanılarak JSONPlaceholder API'si ile veri çekmek ve göstermek için geliştirilmiştir. Kullanıcılar, gönderiler ve yorumlar gibi verilerle basit bir uygulama oluşturulmuştur.
 
-Currently, two official plugins are available:
+## Kullanılan Teknolojiler
+- React
+- Vite (Hızlı geliştirme için)
+- TailwindCSS (Modern CSS framework)
+- React Router (Sayfa yönlendirme için)
+- Framer Motion (Animasyonlar için)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Nasıl Çalıştırılır
+1. Reponun bir kopyasını klonlayın:
+   ```bash
+   git clone https://github.com/kullaniciadi/react-jsonplaceholder-app.git
+
+Gerekli bağımlılıkları yükleyin:
+
+npm install     
+npm run dev
+
+#Amaç
+Bu proje, JSONPlaceholder API'si gibi sahte bir REST API ile çalışmayı öğrenmek ve Vite ile React uygulaması geliştirme konusunda deneyim kazanmak amacıyla oluşturulmuştur.
